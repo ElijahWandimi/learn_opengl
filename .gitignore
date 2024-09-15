@@ -1,0 +1,28 @@
+# Ignore build directories
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/*.cmake
+/Makefile
+
+# Ignore binaries
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+
+# Ignore GLAD and library binaries
+/Libraries/lib/
+/Libraries/include/
+
+# Ignore compiled shaders and logs
+*.log
+*.shader
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+.idea/
